@@ -1,0 +1,77 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: rgb(203, 182, 119);
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo > a > img {
+    width: 300px;
+}
+
+
+footer {
+    color: white;
+    background-color: rgb(69, 0, 132);
+}
+
+.middler {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+aside {
+    background-color: lightgrey;
+    flex-basis: 150px;
+}
+
+main {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+main, aside, header, footer {
+    padding: 10px;
+}
+
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navlink > a {
+    color: rgb(69, 0, 132);
+    padding: 10px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navlink > a:hover {
+    color: lavender; 
+}
