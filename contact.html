@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact</title>
+    <title>Contact Us</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" type="image/png" href="images/dukes_logo_1_half.PNG">
     <link rel="stylesheet" href="css/shared_style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <header>
@@ -26,7 +27,30 @@
 <div class="middler">
     <aside class="left"></aside>
     <main>
-        <h1>CONTACT UNDER CONSTRUCTION</h1>
+        <h1>Interested in joining the team? Fill out this form: </h1>
+        <form>
+            <ul class="form">
+                <li class="form-row">
+                    <label>Name:<span id="star">*</span></label>
+                    <input type="text" aria-required="true" required>
+                </li>
+                <li class="form-row">
+                    <label>Email Address:<span id="star">*</span></label>
+                    <input type="email" required>
+                </li>
+                <li class="form-row">
+                    <label>Subject: </label>
+                    <input type="text">
+                </li>
+                <li class="form-row">
+                    <label>Message: </label>
+                    <textarea></textarea>
+                </li>
+                <li class="form-row">
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+        </form>
     </main>
     <aside class="right"></aside>
 </div>
