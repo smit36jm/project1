@@ -2,6 +2,11 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -55,6 +60,10 @@ main {
     flex-basis: 0;
 }
 
+main > img {
+    width: 100%;
+}
+
 main, aside, header, footer {
     padding: 10px;
 }
@@ -80,4 +89,13 @@ main, aside, header, footer {
 
 .navlink > a:hover {
     color: lavender; 
+}
+
+@media (max-width: 900px) {
+    aside {
+        display: none;
+    }
+    .logo > a > img {
+        width: 150px;
+    }
 }
