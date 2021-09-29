@@ -28,6 +28,7 @@ header {
 }
 
 .logo > a > img {
+    content: url(../images/dukes_logo_1.PNG);
     width: 300px;
 }
 
@@ -61,7 +62,7 @@ main {
 }
 
 main > img {
-    width: 100%;
+    max-width: 100%;
 }
 
 main, aside, header, footer {
@@ -91,11 +92,25 @@ main, aside, header, footer {
     color: lavender; 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     aside {
         display: none;
     }
+
     .logo > a > img {
-        width: 150px;
+        content: url("../images/dukes_logo_1_half.PNG");
+        width: 100%;
+        max-width: 150px;
+        min-width: 50px;;
+    }
+
+    .navlink > a {
+        /* font-size: 1em; */
+    }
+}
+
+@media (max-width: 450px) {
+    .navlink > a {
+        font-size: 1em;
     }
 }
