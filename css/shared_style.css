@@ -65,7 +65,7 @@ footer > a > img {
 aside {
     
     /* flex-basis: 250px; */
-    flex-basis: 10vw;
+    flex-basis: 9vw;
 }
 
 main {
@@ -113,7 +113,7 @@ nav > ul > li > a > #short {
 
 @media (max-width: 800px) {
     aside {
-        display: none;
+        flex-basis: 1vw;
     }
 
     .logo > a > img {
@@ -137,13 +137,5 @@ nav > ul > li > a > #short {
     .navlink > a {
         font-size: .96em;
         padding: 5px;
-    }
-
-    nav > ul > li > a > #long {
-        display: none;
-    }
-
-    nav > ul > li > a > #short {
-        display: inline-block;
     }
 }
