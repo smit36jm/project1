@@ -64,7 +64,8 @@ footer > a > img {
 
 aside {
     
-    flex-basis: 250px;
+    /* flex-basis: 250px; */
+    flex-basis: 10vw;
 }
 
 main {
@@ -96,7 +97,8 @@ main, aside, header, footer {
     padding: 10px;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
+    font-size: 2vw;
     text-decoration: none;
 }
 
@@ -104,8 +106,12 @@ main, aside, header, footer {
     color: lavender; 
 }
 
+nav > ul > li > a > #short {
+    display: none;
+}
 
-@media (max-width: 1000px) {
+
+@media (max-width: 800px) {
     aside {
         display: none;
     }
@@ -122,7 +128,8 @@ main, aside, header, footer {
     }
 
     .navlink > a {
-        font-size: 1.21em;
+        font-size: 3vw;
+        /* font-size: 1.21em; */
     }
 }
 
@@ -130,5 +137,13 @@ main, aside, header, footer {
     .navlink > a {
         font-size: .96em;
         padding: 5px;
+    }
+
+    nav > ul > li > a > #long {
+        display: none;
+    }
+
+    nav > ul > li > a > #short {
+        display: inline-block;
     }
 }
