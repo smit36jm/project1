@@ -2,9 +2,16 @@ table {
     width: 100%;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
+    /* font-size: 1.5em; */
     font-size: 1.5em;
 }
 
 th {
     border-bottom: solid;
+}
+
+@media (max-width: 500px) {
+    table {
+        font-size: 5.75vw;;
+    }
 }

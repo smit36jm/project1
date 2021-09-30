@@ -121,6 +121,8 @@ nav > ul > li > a > #short {
         width: 100%;
         max-width: 100px;
         min-width: 50px;
+        min-height: 65px;
+        max-height: 130px;
     }
 
     footer {
