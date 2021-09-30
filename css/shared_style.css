@@ -102,7 +102,7 @@ main, aside, header, footer {
         content: url("../images/dukes_logo_1_half.PNG");
         width: 100%;
         max-width: 100px;
-        min-width: 50px;;
+        min-width: 50px;
     }
 
 }
