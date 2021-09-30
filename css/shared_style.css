@@ -1,5 +1,6 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(69, 0, 132);
 }
 
 p {
@@ -7,9 +8,18 @@ p {
     font-size: 1.5em;
 }
 
+a {
+    text-decoration: none;
+}
+
+p > a:hover {
+    color: rgb(203, 182, 119);
+}
+
 body {
     display: flex;
     flex-direction: column;
+    justify-content: left;
     margin: 0;
     min-height: 100vh;
     overflow-x: hidden;
@@ -70,6 +80,7 @@ main, aside, header, footer {
     padding: 10px;
 }
 
+
 .navlinks {
     list-style-type: none;
     padding: 0;
@@ -93,6 +104,7 @@ main, aside, header, footer {
     color: lavender; 
 }
 
+
 @media (max-width: 1000px) {
     aside {
         display: none;
@@ -105,11 +117,18 @@ main, aside, header, footer {
         min-width: 50px;
     }
 
+    footer {
+        justify-content: space-around;
+    }
+
+    .navlink > a {
+        font-size: 1.21em;
+    }
 }
 
 @media (max-width: 450px) {
     .navlink > a {
-        font-size: 1em;
+        font-size: .96em;
         padding: 5px;
     }
 }
