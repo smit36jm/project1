@@ -12,7 +12,7 @@
     height: 60vh;
 }
 
-#star {
+.star {
     color: red;
 }
 
@@ -39,7 +39,6 @@
 }
 
 .form-row > button {
-    size: 50%;
     background: rgb(203, 182, 119);
     color: black;
     border: 0;
